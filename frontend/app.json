@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "Vinto",
-    "slug": "Vinto",
+    "slug": "Brill-daddy",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/logo2.png",
@@ -14,7 +14,7 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.Vinto.frontend",
+      "bundleIdentifier": "com.brilldaddy.frontend",
       "infoPlist": {
         "UIRequiresFullScreen": true,
         "UILaunchStoryboardName": "LaunchScreen",
@@ -22,7 +22,7 @@
       }
     },
     "android": {
-      "package": "com.Vinto.frontend",
+      "package": "com.brilldaddy.frontend",
       "adaptiveIcon": {
         "foregroundImage": "./assets/logo2.png",
         "backgroundColor": "#ffffff"
