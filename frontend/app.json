@@ -1,0 +1,62 @@
+{
+  "expo": {
+    "name": "Vinto",
+    "slug": "Vinto",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo2.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/logo2.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.Vinto.frontend",
+      "infoPlist": {
+        "UIRequiresFullScreen": true,
+        "UILaunchStoryboardName": "LaunchScreen",
+        "NSLocationWhenInUseUsageDescription": "Your app uses location to provide location-based services."
+      }
+    },
+    "android": {
+      "package": "com.Vinto.frontend",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/logo2.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "CAMERA",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "themeColor": "#1E40AF",
+      "description": "A responsive app for web, iOS, and Android built using Expo and React Native."
+    },
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "extra": {
+      "responsiveConfig": {
+        "mobileBreakpoint": 768,
+        "tabletBreakpoint": 1024
+      },
+      "eas": {
+        "projectId": "9b3dcc53-089e-4fb3-9fb2-6cebbc0cca47"
+      }
+    },
+    "plugins": [
+      "expo-secure-store"
+    ],
+    "owner": "mithun1634"
+  }
+}
