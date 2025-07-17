@@ -1,4 +1,5 @@
-//frontend/constants/index.js
-import { SERVER_URL, CLOUDINARY_UPLOAD_API, CLOUDINARY_UPLOAD_PRESET } from '@env';
+import { SERVER_URL as serverUrl, CLOUDINARY_UPLOAD_API as cloudinaryApi, CLOUDINARY_UPLOAD_PRESET as uploadPreset } from '@env';
 
-export { SERVER_URL, CLOUDINARY_UPLOAD_API, CLOUDINARY_UPLOAD_PRESET };
+export const SERVER_URL = serverUrl;
+export const CLOUDINARY_UPLOAD_API = cloudinaryApi;
+export const CLOUDINARY_UPLOAD_PRESET = uploadPreset;
